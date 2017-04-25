@@ -1,6 +1,6 @@
 # npmtest-printf
 
-#### test coverage for  [printf (v0.2.5)](http://www.adaltas.com/projects/node-printf)  [![npm package](https://img.shields.io/npm/v/npmtest-printf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-printf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-printf.svg)](https://travis-ci.org/npmtest/node-npmtest-printf)
+#### basic test coverage for  [printf (v0.2.5)](http://www.adaltas.com/projects/node-printf)  [![npm package](https://img.shields.io/npm/v/npmtest-printf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-printf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-printf.svg)](https://travis-ci.org/npmtest/node-npmtest-printf)
 
 #### Full implementation of the `printf` family in pure JS.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-printf/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-printf/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-printf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-printf/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-printf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-printf/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-printf/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-printf/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-printf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-printf/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-printf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-printf/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
     "scripts": {
         "test": "mocha --compilers coffee:coffee-script/register --reporter dot"
     },
-    "version": "0.2.5"
+    "version": "0.2.5",
+    "bin": {}
 }
 ```
 
